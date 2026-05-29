@@ -23,7 +23,7 @@ This site provides detailed documentation, including: development roadmap, user 
 
 ## Quickstart & Installation
 
-For a quickstart guide and installation instructions, see the [README on GitHub](https://github.com/causaliq/causaliq-repo-template#readme).
+For a quickstart guide and installation instructions, see the [README on GitHub](https://github.com/causaliq/causaliq-whatif#readme).
 
 ---
 
@@ -33,22 +33,22 @@ For a quickstart guide and installation instructions, see the [README on GitHub]
 - [User Guide](userguide/introduction.md): comprehensive user guide
 - [Architecture](architecture/overview.md): overall architecture and design notes
 - [API Reference](api/overview.md): complete reference for Python code
-- [Development Guidelines](https://github.com/causaliq/causaliq-repo-template/blob/main/CONTRIBUTING.md): CausalIQ guidelines for developers
-- [Changelog](https://github.com/causaliq/causaliq-repo-template/blob/main/CHANGELOG.md)
-- [License](https://github.com/causaliq/causaliq-repo-template/blob/main/LICENSE)
+- [Development Guidelines](https://github.com/causaliq/causaliq-whatif/blob/main/CONTRIBUTING.md): CausalIQ guidelines for developers
+- [Changelog](https://github.com/causaliq/causaliq-whatif/blob/main/CHANGELOG.md)
+- [License](https://github.com/causaliq/causaliq-whatif/blob/main/LICENSE)
 
 ---
 
 ## Support & Community
 
-- [GitHub Issues](https://github.com/causaliq/causaliq-repo-template/issues): Report bugs or request features.
-- [GitHub Discussions](https://github.com/causaliq/causaliq-repo-template/discussions): Ask questions and join the community.
+- [GitHub Issues](https://github.com/causaliq/causaliq-whatif/issues): Report bugs or request features.
+- [GitHub Discussions](https://github.com/causaliq/causaliq-whatif/discussions): Ask questions and join the community.
 
 ---
 
 **Tip:**  
 Use the navigation sidebar to explore the documentation.  
-For the latest code and releases, visit the [causaliq-repo-template GitHub repository](https://github.com/causaliq/causaliq-repo-template).
+For the latest code and releases, visit the [causaliq-whatif GitHub repository](https://github.com/causaliq/causaliq-whatif).
 
 ---
 

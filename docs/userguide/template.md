@@ -9,7 +9,7 @@ This section provides instructions for **creating a completely new CausalIQ repo
 
 ### Create the new repo on GitHub
 
-- Create the [new repo on Github](https@//github.com/new) with name causaliq-newcapability specifying **this repository (i.e. causaliq-repo-template) as the template**. Fill in the description of the repo. The commit will have a default message of "Initial Commit"
+- Create the [new repo on Github](https@//github.com/new) with name causaliq-newcapability specifying **this repository (i.e. causaliq-whatif) as the template**. Fill in the description of the repo. The commit will have a default message of "Initial Commit"
 
 ### Clone the new repo locally and check that it works
 
@@ -28,16 +28,16 @@ scripts/setup-env -Install
 scripts/activate
 ```
 
-Check that the causaliq-repo-template CLI is working, check that all CI tests pass, and start up the local mkdocs webserver. There should be no errors  reported in any of these.
+Check that the causaliq-whatif CLI is working, check that all CI tests pass, and start up the local mkdocs webserver. There should be no errors  reported in any of these.
 
 ```text
-causaliq-repo-template --help
+causaliq-whatif --help
 scripts/check_ci
 mkdocs serve
 ```
 
 Enter **http://127.0.0.1:8000/** in a browser and check that the 
-causaliq-repo-template skeleton documentation is visible.
+causaliq-whatif skeleton documentation is visible.
 
 If all of the above works, this confirms that the code from the template repo is working successfully on your system.
 
@@ -45,13 +45,13 @@ If all of the above works, this confirms that the code from the template repo is
 
 In the IDE (e.g. VSCode) editor make the following GLOBAL changes to all files and folder names
 
-- replace **causaliq-repo-template** with **causaliq-newcapability** in all files (54 changes across 18 files)
-- replace **causaliq_repo_template** with **causaliq_newcapability** in all files (16 changes across 6 files)
-- replace **cqcrt** with **cqwxyz** in all files (5 changes in 5 files) where "wxyz" is some suggestive three/four-letter short form of "newcapability", e.g. "flow" for "workflow", "alys" for "analysis. "cqwxyz" will be the the CLI shortform name.
-- rename folder **src/causaliq_repo_template** to **src/causaliq_newcapability**
+- replace **causaliq-whatif** with **causaliq-newcapability** in all files (54 changes across 18 files)
+- replace **causaliq_whatif** with **causaliq_newcapability** in all files (16 changes across 6 files)
+- replace **cqwhif** with **cqwxyz** in all files (5 changes in 5 files) where "wxyz" is some suggestive three/four-letter short form of "newcapability", e.g. "flow" for "workflow", "alys" for "analysis. "cqwxyz" will be the the CLI shortform name.
+- rename folder **src/causaliq_whatif** to **src/causaliq_newcapability**
 - manually modify the description in **src/causaliq_newcapability/\_\_init\_\_.py**
-- manually delete the **src/causaliq-repo-template.egg-info** package file
-- manually delete all folders under venv (which will contain references to the causaliq-repo-template)
+- manually delete the **src/causaliq-whatif.egg-info** package file
+- manually delete all folders under venv (which will contain references to the causaliq-whatif)
 - manually modify the description in pyproject.toml to reflect the new capability
 - manually update README.md to describe the new capability
 - manually update the documentation files to refer to new capability
@@ -76,7 +76,7 @@ scripts/check_ci
 mkdocs serve
 ```
 This should all work without any errors and the mkdocs should refer to causaliq-newcapability
-rather than causaliq-repo-template.
+rather than causaliq-whatif.
 
 This confirms that the package name has been successfully changed to "causaliq-newcapability". These changes can be commited to the new repo with message "refactor: package name changed to causaliq-newcapability"
 

@@ -1,4 +1,4 @@
-site_name: causaliq-repo-template
+site_name: causaliq-whatif
 theme:
   name: material
   toc:
