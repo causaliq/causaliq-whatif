@@ -45,13 +45,13 @@ nav:
   - Home: index.md
   - Roadmap: roadmap.md
   - User Guide:
-    - User Guide Introduction: userguide/introduction.md
-    - Creating a new repo: userguide/template.md
-  - Architecture: 
+    - Introduction: userguide/introduction.md
+  - Architecture:
     - Architectural Overview: architecture/overview.md
-    - Design Notes: 
-      - Example: architecture/example_design_note.md
-  - API Reference: 
+    - Design Notes:
+      - SCM in causaliq-core: architecture/scm-in-core.md
+      - Visualisation: architecture/visualisation.md
+  - API Reference:
     - API Overview: api/overview.md
     - CLI: api/cli.md
 

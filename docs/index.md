@@ -1,4 +1,4 @@
-# [CausalIQ Repo Template]
+# CausalIQ WhatIf
 
 <!-- add in coverage and CI badges when repo is public -->
 
@@ -6,18 +6,34 @@
 
 ## Welcome
 
-Welcome to the documentation for the [**CausalIQ Repo Template**] — part of the [CausalIQ ecosystem](https://causaliq.org) for intelligent causal discovery. 
+Welcome to the documentation for **CausalIQ WhatIf** — part of the
+[CausalIQ ecosystem](https://causaliq.org) for intelligent causal
+analysis.
 
-The [CausalIQ Repo template] provides [a
-standardised template for *new* CausalIQ repos.]
+`causaliq-whatif` provides **causal effect estimation and
+counterfactual reasoning** over causal graphs and structural causal
+models (SCMs). It answers questions of the form:
+
+- *What is the effect of intervening to set $X = x$ on outcome $Y$?*
+- *Given that we observed $Y = y$ for unit $u$, what would $Y$ have
+  been had $X$ been set to $x'$ instead?*
+- *Which upstream variable is most responsible for an observed
+  anomaly?*
 
 ---
 
 ## Overview
 
-[CausalIQ Repo template] is designed for [... more details about functionality].
+`causaliq-whatif` exposes a single, harmonised API for causal queries
+that dispatches transparently to one of several mature backends —
+including [DoWhy / EconML](https://www.pywhy.org/),
+[pyAgrum](https://pyagrum.org), and (in later releases) deep
+structural causal models based on normalising flows / diffusion and
+tractable probabilistic circuits (sum–product networks).
 
-This site provides detailed documentation, including: development roadmap, user guide, architectural vision, design notes, and API reference for users and contributors.
+This site provides detailed documentation, including the development
+roadmap, user guide, architectural vision, design notes, and API
+reference for users and contributors.
 
 ---
 
