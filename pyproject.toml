@@ -82,9 +82,20 @@ where = ["src"]
 [tool.setuptools.package-data]
 causaliq_whatif = ["py.typed"]
 
+[tool.causaliq]
+distribution = "causaliq-whatif"
+package = "causaliq_whatif"
+python_versions = ["3.9", "3.10", "3.11", "3.12", "3.13"]
+default_python = "3.11"
+dev_extras = ["dev", "test", "docs"]
+testpaths = ["tests/unit", "tests/functional", "tests/integration"]
+fast_testpaths = ["tests/unit", "tests/functional"]
+slow_marker = "slow"
+extra_steps = []
+
 [tool.pytest.ini_options]
 minversion = "7.0"
-addopts = "-ra -q --strict-markers --cov=causaliq_whatif --cov-report=term-missing --cov-report=html  -m 'not slow'"
+addopts = "-ra -q --strict-markers"
 testpaths = [
     "tests",
 ]
@@ -132,17 +143,28 @@ exclude_lines = [
 line-length = 79
 target-version = ['py39']
 include = '\.pyi?$'
-extend-exclude = '''
+# 'dist' is intentionally omitted so package directories named dist are
+# formatted; build artefacts contain no .py files.
+exclude = '''
 /(
-  # directories
-  \.eggs
+  \.direnv
+  | \.eggs
   | \.git
   | \.hg
+  | \.ipynb_checkpoints
   | \.mypy_cache
+  | \.nox
+  | \.pytest_cache
+  | \.ruff_cache
+  | \.svn
   | \.tox
   | \.venv
+  | \.vscode
+  | __pypackages__
+  | _build
+  | buck-out
   | build
-  | dist
+  | venv
 )/
 '''
 
@@ -153,7 +175,8 @@ line_length = 79
 known_first_party = ["causaliq_whatif"]
 
 [tool.mypy]
-python_version = "3.9"
+# Mypy no longer accepts 3.9 as a target; the code still runs on 3.9.
+python_version = "3.10"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
