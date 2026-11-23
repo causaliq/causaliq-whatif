@@ -2,7 +2,7 @@
 
 <!-- add in coverage and CI badges when repo is public -->
 
-![Python Versions](https://img.shields.io/badge/python-3.9%2C%203.10%2C%203.11%2C%203.12-blue)
+![Python Versions](https://img.shields.io/badge/python-3.10%2C%203.11%2C%203.12%2C%203.13%2C%203.14-blue)
 
 ## Welcome
 
@@ -68,5 +68,5 @@ For the latest code and releases, visit the [causaliq-whatif GitHub repository](
 
 ---
 
-**Supported Python Versions**: 3.9, 3.10, 3.11, 3.12  
-**Default Python Version**: 3.11
+**Supported Python Versions**: 3.10, 3.11, 3.12, 3.13, 3.14  
+**Default Python Version**: 3.12

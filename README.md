@@ -1,6 +1,6 @@
 # causaliq-whatif
 
-![Python Versions](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)
+![Python Versions](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 
@@ -30,7 +30,7 @@ Planned releases:
 - 📁 **Standardised project structure**: following current best practices
 - ⌨️ **CLI Interface**: An initial dummy command-line interface.
 - 📖 **Documentation framework**: using mkdocs with shared CausalIQ branding.
-- 🐍 **Python setup**: providing virtual environments for Python 3.9, 3.10, 3.11 and 3.12.
+- 🐍 **Python setup**: providing virtual environments for Python 3.10, 3.11, 3.12, 3.13 and 3.14.
 - 🔬 **pytest test framework**: for unit, functional and integration testing including code coverage.
 - 🔄 **Continuous Integration testing**: across Python versions and operating systems using GitHub actions 
 
@@ -70,7 +70,7 @@ so that the legacy repo can use the migrated code instead.
 ### Prerequisites
 
 - Git 
-- Latest stable versions of Python 3.9, 3.10. 3.11 and 3.12
+- Latest stable versions of Python 3.10, 3.11, 3.12, 3.13 and 3.14
 
 
 ### Clone the new repo locally and check that it works
@@ -119,7 +119,7 @@ This repository is part of the CausalIQ ecosystem. For development setup:
 
 ---
 
-**Supported Python Versions**: 3.9, 3.10, 3.11, 3.12  
-**Default Python Version**: 3.11  
+**Supported Python Versions**: 3.10, 3.11, 3.12, 3.13, 3.14  
+**Default Python Version**: 3.12  
 **License**: MIT
 
